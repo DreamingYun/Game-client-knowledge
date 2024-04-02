@@ -1,0 +1,2 @@
+E:\GitHub\Game-client-knowledge\TypeScript相关\TypeScriptTry\obj\Release\TypeScriptTry.esproj.SuggestedBindingRedirects.cache
+E:\GitHub\Game-client-knowledge\TypeScript相关\TypeScriptTry\obj\Release\TypeScriptTry.esproj.CoreCompileInputs.cache
