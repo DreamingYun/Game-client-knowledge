@@ -103,5 +103,48 @@ class Square {
         this.height = 100;
     }
 }
+//模块
+var JJDPlace;
+(function (JJDPlace) {
+    //export控制是否可以被外部访问
+    class Animal {
+        /*get name(): string {
+            return this.name;
+        }
+
+        set name(name: string) {
+            this.name = name;
+        }*/
+        constructor(name) {
+            this.name = name;
+        }
+    }
+    JJDPlace.Animal = Animal;
+})(JJDPlace || (JJDPlace = {}));
+//别名
+var Shapes;
+(function (Shapes) {
+    let AllShapes;
+    (function (AllShapes) {
+        class Square {
+        }
+        AllShapes.Square = Square;
+        class Triangle {
+        }
+        AllShapes.Triangle = Triangle;
+    })(AllShapes = Shapes.AllShapes || (Shapes.AllShapes = {}));
+})(Shapes || (Shapes = {}));
+var NowShapes = Shapes.AllShapes; //别名
+var sq = new NowShapes.Square();
+var tr = new NowShapes.Triangle();
+//函数定义
+function add(x, y) {
+    return x + y;
+}
+var myAdd = function (x, y) {
+    return x + y;
+};
+console.log(add(1, 2));
+console.log(myAdd(1, 2));
 console.log(1); //断点停住
 //# sourceMappingURL=app.js.map

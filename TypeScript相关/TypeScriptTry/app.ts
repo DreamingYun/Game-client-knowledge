@@ -135,5 +135,51 @@ interface Square extends Graphic, penStroke {
 }
 
 
+//模块
+module JJDPlace {
+    //export控制是否可以被外部访问
+    export class Animal {
+        private name: string;
+
+        /*get name(): string {
+            return this.name;
+        }
+
+        set name(name: string) {
+            this.name = name;
+        }*/
+
+        constructor(name: string) {
+            this.name = name;
+        }
+    }
+}
+
+
+//别名
+module Shapes {
+    export module AllShapes {
+        export class Square { }
+        export class Triangle { }
+    }
+}
+
+import NowShapes = Shapes.AllShapes;//别名
+var sq = new NowShapes.Square();
+var tr = new NowShapes.Triangle();
+
+
+//函数定义
+function add(x: number, y: number): number {
+    return x + y;
+}
+
+var myAdd = function (x: number, y: number): number {
+    return x + y;
+}
+
+console.log(add(1, 2));
+console.log(myAdd(1, 2));
+
 
 console.log(1);//断点停住
