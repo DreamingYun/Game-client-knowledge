@@ -1,2 +1,3 @@
 E:\GitHub\Game-client-knowledge\TypeScript相关\TypeScriptTry\obj\Debug\TypeScriptTry.esproj.SuggestedBindingRedirects.cache
 E:\GitHub\Game-client-knowledge\TypeScript相关\TypeScriptTry\obj\Debug\TypeScriptTry.esproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\JJD\Personal\Game-client-knowledge\TypeScript相关\TypeScriptTry\obj\Debug\TypeScriptTry.esproj.CoreCompileInputs.cache

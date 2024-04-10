@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|c:\\users\\admin\\desktop\\jjd\\personal\\game-client-knowledge\\typescript\u76F8\u5173\\typescripttry\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|solutionrelative:app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|c:\\users\\admin\\desktop\\jjd\\personal\\game-client-knowledge\\typescript\u76F8\u5173\\typescripttry\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|c:\\users\\admin\\desktop\\jjd\\personal\\game-client-knowledge\\typescript\u76F8\u5173\\typescripttry\\app.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{66FDF02F-3566-41B0-BED0-7C22458CD699}|TypeScriptTry.esproj|solutionrelative:app.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.js.map",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.js.map",
+              "RelativeDocumentMoniker": "app.js.map",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.js.map",
+              "RelativeToolTip": "app.js.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAADuAwAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-09T09:36:04.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.js",
+              "RelativeDocumentMoniker": "app.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.js",
+              "RelativeToolTip": "app.js",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-09T09:36:04.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.ts",
+              "RelativeDocumentMoniker": "app.ts",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\JJD\\Personal\\Game-client-knowledge\\TypeScript\u76F8\u5173\\TypeScriptTry\\app.ts",
+              "RelativeToolTip": "app.ts",
+              "ViewState": "AQIAALIAAAAAAAAAAAAMwL8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-09T09:36:04.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
