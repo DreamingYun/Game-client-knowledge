@@ -1,4 +1,4 @@
-﻿//数据类型
+﻿/*//数据类型
 
 //Boolean类型
 var flag: boolean = false;
@@ -141,13 +141,13 @@ module JJDPlace {
     export class Animal {
         private name: string;
 
-        /*get name(): string {
+        *//*get name(): string {
             return this.name;
         }
 
         set name(name: string) {
             this.name = name;
-        }*/
+        }*//*
 
         constructor(name: string) {
             this.name = name;
@@ -180,6 +180,23 @@ var myAdd = function (x: number, y: number): number {
 
 console.log(add(1, 2));
 console.log(myAdd(1, 2));
+
+
+console.log(1);//断点停住*/
+
+
+
+
+
+function keepWholeObject(wholeObject: { a: string, b?: number }) {
+    let { a, b = 1001 } = wholeObject;
+}
+
+
+
+
+
+
 
 
 console.log(1);//断点停住
