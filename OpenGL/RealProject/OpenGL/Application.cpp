@@ -2,6 +2,39 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+
+static void ParseShader(const std::string& filepath) {
+    //读取文件
+    std::ifstream stream(filepath);
+
+    enum class ShaderType {
+        NONE = -1,VERTEX = 0,FRAGMENT = 1
+    };
+
+    std::string line;
+    std::stringstream ss[2];
+    ShaderType type = ShaderType::NONE;
+    
+    while (getline(stream, line)) {
+        if (line.find("#shader") != std::string::npos) {
+            if (line.find("vertex") != std::string::npos) {
+                //设置顶点
+                type = ShaderType::VERTEX;
+            }
+            else if (line.find("fragment") != std::string::npos) {
+                //设置片段
+                type = ShaderType::FRAGMENT;
+            }
+        }
+        else {
+            ss[(int)type] << line << '\n';
+        }
+    }
+
+}
 
 static unsigned int CompileShader(unsigned int type,const std::string& source) {
     //着色器类型在define时对应int
