@@ -1,0 +1,1 @@
+ MVP矩阵分别是模型(Model)、观察(View)、投影(Projection)三个矩阵，其作用是将3D物体转化到2D平面上，我们的顶点坐标起始于局部空间(Local Space)，在这里它称为局部坐标(Local Coordinate)，它在之后会变为世界坐标(World Coordinate)，观察坐标(View Coordinate)，裁剪坐标(Clip Coordinate)，并最后以屏幕坐标(Screen Coordinate)的形式结束
