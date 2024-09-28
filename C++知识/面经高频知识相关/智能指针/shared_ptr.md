@@ -63,7 +63,7 @@ int main()
 
 在作用域内ap和bp的引用计数都为2，但是当它们退出循环的时候，ap的引用计数减1，bp的引用计数也减1，但它们依旧不为0，引用计数均为1。
 
-现在，对于ap和bp来说，它们都拿着对方的share_ptr，没法使得ab和bp的引用计数为0。那么**A和B的对象均无法析构**。于是造成了内存泄漏。
+现在，对于ap和bp来说，它们都拿着对方的share_ptr，没法使得ab和bp的引用计数为0。那么**A和B的对象均无法析构**。于是造成了**内存泄漏**。
 
 
 
@@ -98,7 +98,7 @@ weak_ptr被设计为与shared_ptr共同工作，可以从一个shared_ptr或者�
 
  weak_ptr用于解决”引用计数”模型循环依赖问题，weak_ptr指向一个对象，并不增减该对象的引用计数器。weak_ptr用于配合shared_ptr使用，并不影响动态对象的生命周期，即其存在与否并不影响对象的引用计数器。weak_ptr并没有重载operator->和operator *操作符，因此不可直接通过weak_ptr使用对象。weak_ptr提供了expired()与lock()成员函数，前者用于判断weak_ptr指向的对象是否已被销毁，后者返回其所指对象的shared_ptr智能指针(对象销毁时返回”空”shared_ptr)。
 
- weak_ptr并没有重载operator->和operator *操作符，因此不可直接通过weak_ptr使用对象，典型的用法是调用其lock函数来获得shared_ptr示例，进而访问原始对象。
+ weak_ptr并没有重载operator->和operator *操作符，因此不可直接通过weak_ptr使用对象，典型的用法是调用其**lock函数**来获得shared_ptr示例，进而访问原始对象。
 
 
 
