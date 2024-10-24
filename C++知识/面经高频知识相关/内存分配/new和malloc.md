@@ -4,7 +4,7 @@
 
 因此完全可以 #define new new(std::nothrow) .
 
-2.使用 **malloc/calloc** 等分配内存的函数时，一定要检查其返回值是否为“空指针”,返回空指针表示申请内存失败。
+2.使用 **malloc/calloc** 等分配内存的函数时，一定要检查其返回值是否为“空指针”,返回**空指针**表示申请内存失败。
 
 \#define new new(std::nothrow)char *p = new char[4];
 

@@ -44,7 +44,7 @@ int* buff = new int;
 
 memset(buff,0,sizeof(int));
 
-//此处new的placement new，在buff的内存上构造int对象，不需要分配额外的内存
+//此处new的placement new，在buff的内存上构造int对象，不需要**分配额外**的内存
 
 int *p = new (**buff**)**int(3)**;
 
